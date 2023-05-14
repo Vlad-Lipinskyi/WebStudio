@@ -55,6 +55,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  margin-right: 344px;
 }
 
 .nav-contacts:hover {
@@ -104,6 +105,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  padding-right: 93px;
 }
 
 .nav-webstudiobl {
@@ -201,6 +203,8 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 9px;
 }
 
 .footer-contacts {
@@ -235,7 +239,7 @@ body {
 }
 
 img {
-  weight: 370px;
+  width: 370px;
   height: 294px;
 }
 
@@ -264,12 +268,37 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
+} 
 
-.header {
+.contacts-list{
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
+  align-items: space-between;
 }
+
+.header-section{
+  display: flex;
+  align-items: center;
+} 
+
+.footer-list{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 1154px;
+  padding-left: 215px;
+}
+
+.header-navigation{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: ;
+}
+
+
+
+
+
+
 
 
