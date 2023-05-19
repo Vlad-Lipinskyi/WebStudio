@@ -197,6 +197,7 @@ img{
   letter-spacing: 0.03em;
   color: #212121;
   padding-top: 121px;
+  padding-bottom: 50px;
 }
 
 .team-title {
@@ -216,6 +217,7 @@ img{
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 10px;
 }
 
 .team-descr {
@@ -261,7 +263,6 @@ img{
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  padding-bottom: 60px;
 }
 
 .company-list {
@@ -332,3 +333,25 @@ img{
 .advantage-item{
   width: 270px;
 }
+
+.container1{
+  padding-bottom: 94px;
+}
+
+.team-text{
+  padding-top: 30px;
+  padding-bottom: 30px;  
+  padding-left: auto;
+  padding-right: auto;
+  margin: ;
+}
+
+.footer{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+
+
+

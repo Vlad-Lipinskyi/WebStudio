@@ -55,7 +55,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-  margin-right: 344px;
 }
 
 .nav-contacts:hover {
@@ -105,7 +104,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
-  padding-right: 93px
+  margin-right: 93px
 }
 
 .nav-webstudiobl {
@@ -254,27 +253,22 @@ img {
 
 .header-list {
   display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
-  margin-left: 93px;
+  justify-content: space-between;
   margin-right: auto;
 }
 
 .section {
   padding-top: 24px;
   padding-bottom: 25px;
-  padding-left: 215px;
-  padding-right: 93px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 } 
 
 .contacts-list{
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
-  align-items: space-between;
+  margin-left: auto;
 }
 
 .header-section{
@@ -285,15 +279,38 @@ img {
 .footer-list{
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-right: 1154px;
-  padding-left: 215px;
 }
 
 .header-navigation{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  width: 100%;
 }
+
+.container{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.work-poster{
+  padding-bottom: 94px;
+}
+
+.poster-text{
+  padding: 20px 24px
+}
+
+.header-page:not(:last-child){
+  margin-right: 50px;
+}
+
+
+
+
 
 
 
