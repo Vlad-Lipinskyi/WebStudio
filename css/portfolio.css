@@ -105,7 +105,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
-  padding-right: 93px;
+  padding-right: 93px
 }
 
 .nav-webstudiobl {
@@ -292,7 +292,7 @@ img {
 .header-navigation{
   display: flex;
   flex-wrap: wrap;
-  padding-top: ;
+  align-items: center;
 }
 
 
