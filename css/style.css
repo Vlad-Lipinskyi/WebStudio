@@ -4,15 +4,15 @@
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
-img{
+img {
   display: block;
   width: 100%;
 }
 
-.container{
+.container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -20,7 +20,7 @@ img{
   padding-right: 15px;
 }
 
-.header-navigation{
+.header-navigation {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -35,7 +35,7 @@ img{
   color: #212121;
 }
 
-.nav-studio:hover { 
+.nav-studio:hover {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -165,6 +165,7 @@ img{
   color: #ffffff;
   background: #1e74b9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 0px;
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
@@ -272,8 +273,8 @@ img{
 }
 
 .hero-section {
-  background-color: #2F303A;
-  border: solid #2F303A;
+  background-color: #2f303a;
+  border: solid #2f303a;
   height: 500px;
 }
 
@@ -289,15 +290,15 @@ img{
   gap: 50px;
 }
 
-.team-item{
+.team-item {
   width: 270px;
-} 
+}
 
-.hero-title{
+.hero-title {
   padding: 100px;
 }
 
-.header-list{
+.header-list {
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
@@ -305,53 +306,46 @@ img{
   margin-right: auto;
 }
 
-.contacts-list{
+.contacts-list {
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
 }
 
-.header-container{
+.header-container {
   display: flex;
   align-items: center;
 }
 
-.header{
+.header {
   padding-top: 24px;
   padding-bottom: 25px;
 }
 
-.advantage-list{
+.advantage-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
   padding-top: 94px;
-
 }
 
-.advantage-item{
+.advantage-item {
   width: 270px;
 }
 
-.container1{
+.container1 {
   padding-bottom: 94px;
 }
 
-.team-text{
+.team-text {
   padding-top: 30px;
-  padding-bottom: 30px;  
+  padding-bottom: 30px;
   padding-left: auto;
   padding-right: auto;
-  margin: ;
 }
 
-.footer{
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
-
-
-
-

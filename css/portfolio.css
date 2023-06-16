@@ -237,6 +237,10 @@ body {
   gap: 30px;
 }
 
+.poster-page{
+  flex-basis: calc((100% - 90px) / 3);
+}
+
 img {
   width: 370px;
   height: 294px;
@@ -294,6 +298,11 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.container-poster{
+  width: 100%;
+  max-width: 1200px;
 }
 
 .work-poster{
