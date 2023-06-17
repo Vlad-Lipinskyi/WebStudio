@@ -142,6 +142,9 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* .hero-section { 
@@ -171,6 +174,7 @@ img {
   margin-right: auto;
   margin-top: 43px;
   padding: 9px;
+  border: none;
 }
 
 .advantage-description {
@@ -197,8 +201,8 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-top: 121px;
-  padding-bottom: 50px;
+  margin-top: 118px;
+  margin-bottom: 50px;
 }
 
 .team-title {
@@ -208,7 +212,13 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding: 90px;
+  margin-top: 94px;
+  margin-bottom: 50px; 
+}
+
+.team{
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .team-name {
@@ -273,9 +283,16 @@ img {
 }
 
 .hero-section {
+<<<<<<< HEAD
   background-color: #2f303a;
   border: solid #2f303a;
   height: 500px;
+=======
+  background-color: #2F303A;
+  border: solid #2F303A;
+  padding-top: 200px;
+  padding-bottom: 200px;
+>>>>>>> af9ee6bb75b74e280e1ab67be7fecd8291305c87
 }
 
 .hero-list {
@@ -294,11 +311,15 @@ img {
   width: 270px;
 }
 
+<<<<<<< HEAD
 .hero-title {
   padding: 100px;
 }
 
 .header-list {
+=======
+.header-list{
+>>>>>>> af9ee6bb75b74e280e1ab67be7fecd8291305c87
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
@@ -336,6 +357,8 @@ img {
 
 .container1 {
   padding-bottom: 94px;
+  background-color: #F5F4FA; 
+  padding-top: 94px;
 }
 
 .team-text {
