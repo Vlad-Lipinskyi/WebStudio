@@ -283,16 +283,10 @@ img {
 }
 
 .hero-section {
-<<<<<<< HEAD
-  background-color: #2f303a;
-  border: solid #2f303a;
-  height: 500px;
-=======
   background-color: #2F303A;
   border: solid #2F303A;
   padding-top: 200px;
   padding-bottom: 200px;
->>>>>>> af9ee6bb75b74e280e1ab67be7fecd8291305c87
 }
 
 .hero-list {
@@ -311,15 +305,12 @@ img {
   width: 270px;
 }
 
-<<<<<<< HEAD
 .hero-title {
   padding: 100px;
 }
 
-.header-list {
-=======
 .header-list{
->>>>>>> af9ee6bb75b74e280e1ab67be7fecd8291305c87
+
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
