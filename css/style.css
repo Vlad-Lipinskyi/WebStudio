@@ -147,15 +147,6 @@ img {
   margin-right: auto;
 }
 
-/* .hero-section { 
-  position: absolute;
-  width: 1600px;
-  height: 1600px;
-  left: 0px;
-  top: 80px;
-  background: #2f303a;
-}*/
-
 .hero-btn {
   font-weight: 670;
   font-size: 16px;
@@ -287,6 +278,10 @@ img {
   border: solid #2F303A;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: url(../img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-list {
@@ -369,6 +364,7 @@ img {
 .container1 {
   padding-bottom: 94px;
   padding-top: 94px;
+  background-color: #F5F4FA;
 }
 
 .team-text {
@@ -382,4 +378,6 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+
 
