@@ -303,6 +303,10 @@ img {
 
 .team-item {
   width: 270px;
+  background-color: #FFFFFF;
+  padding-bottom: 30px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px
 }
 
 .hero-title {
@@ -310,7 +314,6 @@ img {
 }
 
 .header-list{
-
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
@@ -346,9 +349,25 @@ img {
   width: 270px;
 }
 
+.advantage-item:nth-child(1):before{
+  background-image: url(../img/antenna.png);
+}
+
+.advantage-item:nth-child(2):before{
+  background-image: url(../img/time.png);
+}
+
+.advantage-item:nth-child(3):before{
+  background-image: url(../img/diagram.png);
+}
+
+.advantage-item:nth-child(4):before{
+  background-image: url(../img/astronaut.png);
+}
+
+
 .container1 {
   padding-bottom: 94px;
-  background-color: #F5F4FA; 
   padding-top: 94px;
 }
 
