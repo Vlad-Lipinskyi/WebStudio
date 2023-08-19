@@ -1,0 +1,346 @@
+/* шрифти */
+
+* {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+/* контейнер */
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* секція хедер */
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+}
+
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo2 {
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    line-height: 1.19;
+}
+
+.header-logo1 {
+    color: #000000;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    line-height: 1.19;
+}
+
+.header-pages {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: 93px;
+}
+
+.header-page {
+    color: #212121;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+    font-weight: 500;
+}
+
+.header-page:hover {
+    color: #2196F3;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+    font-weight: 500;
+}
+
+.header-page:focus {
+    color: #2196F3;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+    font-weight: 500;
+}
+
+.active-page {
+    color: #2196F3;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+    font-weight: 500;
+}
+
+.header-contacts {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: auto;
+}
+
+.header-link {
+    color: #757575;
+    font-weight: 500;
+}
+
+.header-link:hover {
+    color: #2196F3;
+    font-weight: 500;
+}
+
+.header-link:focus {
+    color: #2196F3;
+    font-weight: 500;
+}
+
+/* секція герой */
+
+.hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)) ,url(../img/main/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.hero-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-title {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 44px;
+    letter-spacing: 0.06em;
+    line-height: 1.36;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    max-width: 696px;
+    font-weight: 900;
+}
+
+.hero-btn {
+    color: #FFFFFF;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    line-height: 1.87;
+    font-weight: 700;
+    background-color: #2196F3;
+    border: none;
+    padding: 10px 32px;
+    border-radius: 4px;
+}
+
+/* секція переваги */
+
+.adventage {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.adventage-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.adventage-item::before {
+    content: '';
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.adventage-item:nth-child(1)::before {
+    background-image: url(../img/main/adventage-1.png);
+}
+
+.adventage-item:nth-child(2)::before {
+    background-image: url(../img/main/adventage-2.png);
+}
+
+.adventage-item:nth-child(3)::before {
+    background-image: url(../img/main/adventage-3.png);
+}
+
+.adventage-item:nth-child(4)::before {
+    background-image: url(../img/main/adventage-4.png);
+}
+
+.adventage-title {
+    color: #212121;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    line-height: 1.14;
+    margin-bottom: 10px;
+}
+
+.adventage-description {
+    color: #757575;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+    max-width: 270px;
+}
+
+/* секція чим ми займаємось */
+
+.classes {
+    padding-bottom: 94px;
+}
+
+.classes-title {
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    line-height: 1.16;
+    color: #212121;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.classes-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.classes-img {
+    width: 370px;
+    height: 294px;
+}
+
+/* секція наша команда */
+
+.team {
+    background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team-title {
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    line-height: 1.16;
+    color: #212121;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+    padding-bottom: 30px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.team-img {
+    width: 270px;
+    height: 260px;
+}
+
+.team-subtitle {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    line-height: 1.18;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.team-description {
+    color: #757575;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 1.18;
+    text-align: center;
+}
+
+/* секція футер */
+
+.footer {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-logo2 {
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    line-height: 1.19;
+    margin-bottom: 20px;
+}
+
+.footer-logo1 {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    line-height: 1.19;
+    margin-bottom: 20px;
+}
+
+.footer-adress {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+    margin-bottom: 9px;
+}
+
+.footer-contact1 {
+    color: rgba(255, 255, 255, 60%);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+    margin-bottom: 9px;
+}
+
+.footer-contact2 {
+    color: rgba(255, 255, 255, 60%);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+}
