@@ -232,6 +232,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  padding-bottom: 28px;
 }
 
 .webstudio-wh {
@@ -400,6 +401,86 @@ img {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.team-icons{
+width: 20px;
+height: 20px;
+flex-shrink: 0;
+margin-right: 34px;
+fill: #AFB1B8;
+}
+
+.team-icons:hover{
+  background-color: #2196F3;
+  border-radius: 50%;
+  fill: #FFFFFF;
+}
+
+.customer-icons{
+width: 106px;
+height: 60px;
+padding: 8.7px 10.564px 10.677px 11px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border: 1px solid #AFB1B8;
+fill: #AFB1B8;
+}
+
+.customer-list{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 94px;
+}
+
+.customer-icons:hover{
+  fill: #2196F3;
+  border: 1px solid #2196F3;
+}
+
+.customer-title{
+color: #212121;
+text-align: center;
+font-family: 'Roboto';
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+padding-top: 94px;
+padding-bottom: 50px;
+}
+
+.footer-title{
+color: #FFF;
+font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
+.footer-icons{
+width: 20px;
+height: 20px;
+flex-shrink: 0;
+fill: #FFF;
+}
+
+.footer-list-icons{
+  display: flex;
+  gap: 34px;
+  padding-top: 32px;
+}
+
+.footer-icons:hover{
+  fill: #FFFFFF;
+  border-radius: 50%;
+  background-color: #2196F3;
 }
 
 
