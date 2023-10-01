@@ -372,18 +372,6 @@ img {
   background-image: url(../img/main/adventage-4.png);
 }
 
-.advantage-item:nth-child(2)::before{
-  background-image: url(../img/main/time.png);
-}
-
-.advantage-item:nth-child(3)::before{
-  background-image: url(../img/main/diagram.png);
-}
-
-.advantage-item:nth-child(4)::before{
-  background-image: url(../img/main/astronaut.png);
-}
-
 
 .container1 {
   padding-bottom: 94px;
@@ -489,6 +477,8 @@ padding: 12px;
   background-color: #2196F3;
   padding: 12px;
 }
+
+
 
 
 
