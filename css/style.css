@@ -100,7 +100,7 @@ img {
   color: #212121;
 }
 
-.nav-studio:hover ..nav-studio:focus {
+.nav-studio:hover .nav-studio:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
