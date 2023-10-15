@@ -84,12 +84,16 @@ img {
   gap: 50px;
 }
 
-.nav-icons {
+.nav-icon-smartphone {
+  width: 20px;
+  height: 16px;
+  fill: #757575;
+}
+
+.nav-icon-envelope {
   width: 10px;
   height: 16px;
-  flex-shrink: 0;
-  fill: #757575;
-  margin-right: 10px;
+  fill: #757575;;
 }
 
 .nav-studio {
@@ -100,7 +104,7 @@ img {
   color: #212121;
 }
 
-.nav-studio:hover .nav-studio:focus {
+.nav-studio:hover, .nav-studio:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -116,7 +120,7 @@ img {
   color: #212121;
 }
 
-.nav-portfolio:hover .nav-portfolio:focus {
+.nav-portfolio:hover, .nav-portfolio:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -132,7 +136,7 @@ img {
   color: #212121;
 }
 
-.nav-contacts:hover .nav-contacts:focus {
+.nav-contacts:hover, .nav-contacts:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -148,7 +152,7 @@ img {
   color: #757575;
 }
 
-.nav-tel:hover .nav-tel:focus {
+.nav-tel:hover .nav-icon-smartphone, .nav-tel:focus .nav-icon-smartphone {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -164,7 +168,7 @@ img {
   color: #757575;
 }
 
-.nav-mail:hover .nav-mail:focus {
+.nav-mail:hover .nav-icons-envelope, .nav-mail:focus .nav-icons-envelope  {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
