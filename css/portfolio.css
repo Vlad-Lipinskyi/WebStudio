@@ -322,6 +322,56 @@ img {
   margin-right: 50px;
 }
 
+.footer-icons{
+width: 20px;
+height: 20px;
+fill: #FFFFFF;
+}
+
+.footer-box{
+  display: flex;
+}
+
+.footer-list-icons {
+  display: flex;
+  padding-top: 32px;
+  gap: 10px;
+}
+
+.footer-icons-link:hover,
+.footer-icons-link:focus {
+  fill: #ffffff;
+  border-radius: 50%;
+  background-color: #2196f3;  
+}
+
+.footer-icons-link {
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title {
+  padding-top: 75px;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.footer-icons-box{
+  padding-left: 156px;
+}
+
+
 
 
 
