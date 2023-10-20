@@ -154,7 +154,7 @@ align-items: center;
   fill: #2196F3;
 }
 
-.contact-item:hover .contact-text{
+.contact-text:hover{
   color: #2196F3;
 }
 
@@ -181,9 +181,10 @@ color: #757575;
 /* секція герой */
 
 .hero-section {
+  height: 600px;
   background-color: #2f303a, rgba(47, 48, 58, 0.4);
-  padding-top: 200px;
-  padding-bottom: 200px;
+  /* padding-top: 200px;
+  padding-bottom: 200px; */
   background-image: url(../img/main/hero-bg.jpg);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -206,7 +207,8 @@ color: #757575;
   max-width: 696px;
   margin-left: auto;
   margin-right: auto;
-  padding: 100px;
+  padding-top: 200px;
+  padding-bottom: 30px;
 }
 
 .hero-list {
@@ -232,7 +234,7 @@ color: #757575;
   margin-left: auto;
   margin-right: auto;
   margin-top: 43px;
-  padding: 9px;
+  padding: 10px 32px;
   border: none;
 }
 
