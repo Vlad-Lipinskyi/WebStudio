@@ -7,6 +7,18 @@ body {
   font-family: "Roboto";
 }
 
+.header-page::after{
+  content: '';
+  display: block;
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #2196F3;
+  position: absolute;
+  left: -2px;
+  bottom: -25px;
+}
+
 .header-logo,
 .logo {
   font-family: "Raleway";
@@ -264,6 +276,7 @@ img {
   display: flex;
   justify-content: space-between;
   margin-right: auto;
+  position: relative;
 }
 
 .section {
