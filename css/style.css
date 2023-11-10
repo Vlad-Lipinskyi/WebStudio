@@ -36,17 +36,6 @@ img {
   align-items: center;
 }
 
-.header-page::after{
-  content: '';
-  display: block;
-  width: 48px;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #2196F3;
-  position: absolute;
-  left: -2px;
-  bottom: -25px;
-}
 
 .header-navigation {
   display: flex;
@@ -88,7 +77,6 @@ img {
   gap: 50px;
   margin-left: 93px;
   margin-right: auto;
-  position: relative;
 }
 
 .contacts-list {
@@ -249,6 +237,11 @@ color: #757575;
   margin-top: 43px;
   padding: 10px 32px;
   border: none;
+}
+
+.hero-btn:hover{
+  background-color: #ffffff;
+  color: #2196f3;
 }
 
 
@@ -655,7 +648,7 @@ fill: #FFFFFF;
   height: 50px;
   display: flex;
   align-items: center;
-
+  border: none;
 }
 .footer-box2{
   display: flex;
@@ -663,7 +656,13 @@ fill: #FFFFFF;
   gap: 12px;
 }
 .form-icon{
-  fill: #fff;
+fill: white;
+width: 24px;
+height: 24px;
+}
+
+.footer-form{
+  padding-left: 93px;
 }
 
 /* модальне вікно */
