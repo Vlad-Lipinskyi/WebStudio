@@ -98,12 +98,25 @@ img {
 }
 
 .nav-studio {
+  position: relative;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
+
+.nav-studio:after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #2196f3;
+  }
 
 .nav-studio:hover, .nav-studio:focus {
   font-weight: 500;
@@ -114,6 +127,7 @@ img {
 }
 
 .nav-portfolio {
+  /* position: relative; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -121,6 +135,30 @@ img {
   color: #212121;
 }
 
+.header-page{
+  position: relative;
+}
+
+.navigation-box {
+  display: block;
+  position: absolute;
+  top: 46px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: white;
+  transform: translatey(100%);
+
+  transition-property: transform, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-portfolio:hover + .navigation-box {
+  transform: translatey(0);
+  background-color: #2196f3;
+}
 .nav-portfolio:hover, .nav-portfolio:focus {
   font-weight: 500;
   font-size: 14px;
@@ -143,6 +181,12 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
+  
+}
+
+.nav-contacts:hover + .navigation-box {
+  transform: translatey(0);
+  background-color: #2196f3;
 }
 
 .nav-tel {
@@ -671,7 +715,6 @@ height: 24px;
 .close-icon {
   width: 18px;
   height: 18px;
-  /* transition-property: fill; */
   transition-duration:  250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   fill: black;
