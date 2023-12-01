@@ -104,6 +104,9 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  transition-property: color;
+  transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  
 }
 
 .nav-studio:after{
@@ -127,32 +130,18 @@ img {
 }
 
 .nav-portfolio {
-  /* position: relative; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  transition-property: color;
+  transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-page{
   position: relative;
-}
-
-.navigation-box {
-  display: block;
-  position: absolute;
-  top: 46px;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: white;
-  transform: translatey(100%);
-
-  transition-property: transform, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-portfolio:hover + .navigation-box {
@@ -173,6 +162,9 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  transition-property: color;
+  transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-contacts:hover, .nav-contacts:focus {
@@ -281,6 +273,9 @@ color: #757575;
   margin-top: 43px;
   padding: 10px 32px;
   border: none;
+  transition-property: background-color;
+  transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover{
@@ -460,6 +455,10 @@ text-transform: uppercase;
   height: 20px;
   flex-shrink: 0;
   fill: #afb1b8;
+  transition-property: fill;
+  transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .icons-link:hover .team-icons,
@@ -492,6 +491,10 @@ text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-property: background-color;
+  transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .icons-link:hover .team-icons,
@@ -537,6 +540,9 @@ text-transform: uppercase;
   border-radius: 4px;
   border: 1px solid #afb1b8;
   fill: #afb1b8;
+  transition-property: background-color;
+  transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-link:hover,
@@ -549,6 +555,9 @@ text-transform: uppercase;
 .customer-icons {
   width: 106px;
   height: 60px;
+  transition-property: fill;
+  transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* секція footer */
@@ -637,6 +646,9 @@ fill: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-property: background-color;
+  transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-label {
@@ -693,6 +705,9 @@ fill: #FFFFFF;
   display: flex;
   align-items: center;
   border: none;
+  transition-property: background-color;
+  transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-box2{
   display: flex;
@@ -770,17 +785,16 @@ height: 24px;
 .modal-comment {
   margin-bottom: 20px;
   width: 448px;
-  height: 120px;
+  height: 40px;
   padding-left: 16px;
   padding-bottom: 90px;
-  padding-top: 12px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
 .modal-icon {
   position: absolute;
   left: 12px;
-  top: 28px;
+  top: 30px;
 }
 .modal-item {
   position: relative;
@@ -921,3 +935,4 @@ height: 24px;
   height: 15px;
   border-radius: 2px;
 }
+
