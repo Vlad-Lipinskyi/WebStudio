@@ -359,6 +359,20 @@ color: #757575;
   color: #212121;
   margin-top: 118px;
   margin-bottom: 50px;
+
+  animation: TitleInvoledRun 1500ms ease-in 400ms both;
+
+}
+
+@keyframes TitleInvoledRun{
+  0%{
+    transform: translateX(-1500px);
+  }
+
+  100%{
+    transform: translateX(0px);
+  }
+
 }
 
 .company-list {
@@ -412,7 +426,21 @@ text-transform: uppercase;
   color: #212121;
   margin-top: 94px;
   margin-bottom: 50px;
+
+  animation: TitleTeamRun 2000ms ease-in 400ms both;
 }
+
+@keyframes TitleTeamRun{
+  0%{
+    transform: translateX(1500px);
+  }
+
+  100%{
+    transform: translateX(0px);
+  }
+  
+}
+
 
 .team-list {
   display: flex;
@@ -520,6 +548,20 @@ text-transform: uppercase;
   letter-spacing: 1.08px;
   padding-top: 94px;
   padding-bottom: 50px;
+
+  animation: TitleCustomerRun 1500ms ease-in 400ms both;
+}
+
+@keyframes TitleCustomerRun{
+  0%{
+    transform: translateY(400px);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 .customer-list {
