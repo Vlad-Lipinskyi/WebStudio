@@ -89,12 +89,14 @@ img {
   width: 10px;
   height: 16px;
   fill: #757575;
+  margin-right: 10px;
 }
 
 .nav-icon-envelope {
   width: 16px;
   height: 12px;
-  fill: #757575;;
+  fill: #757575;
+  margin-right: 10px;
 }
 
 .nav-studio {
@@ -183,11 +185,14 @@ img {
 
 .nav-tel {
 display: flex;
-gap: 10px;
 align-items: center;
 }
 
 .contacts-item:hover .nav-icon-smartphone, .contacts-item:focus .nav-icon-smartphone{
+  fill: #2196F3;
+}
+
+.contacts-item:hover .nav-icon-envelope, .contacts-item:focus .nav-icon-envelope{
   fill: #2196F3;
 }
 

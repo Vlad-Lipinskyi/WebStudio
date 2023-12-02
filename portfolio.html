@@ -15,6 +15,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/portfolio.css" />
     <title>Портфоліо</title>
@@ -70,7 +71,7 @@
       <section class="work-poster">
         <div class="container container-poster">
           <ul class="poster-list">
-            <li class="poster-page">
+            <li data-aos="fade-right" data-aos-duration="1500" class="poster-page">
               <img src="./img/portfolio/portfolio1.webp" alt="Карточка 1" />
               <div class="poster-text">
                 <div class="overlay">
@@ -84,7 +85,7 @@
                 <p class="descr">Веб-сайт</p>
               </div>
             </li>
-            <li class="poster-page">
+            <li data-aos="fade-down" data-aos-duration="1500" class="poster-page">
               <img src="./img/portfolio/portfolio2.webp" alt=Карточка 2" />
               <div class="poster-text">
                 <div class="overlay">
@@ -98,7 +99,7 @@
                 <p class="descr">Дизайн</p>
               </div>
             </li>
-            <li class="poster-page">
+            <li data-aos="fade-left" data-aos-duration="1500" class="poster-page">
               <img src="./img/portfolio/portfolio3.webp" alt="Карточка 3" />
               <div class="poster-text">
                 <div class="overlay">
@@ -112,7 +113,7 @@
                 <p class="descr">Додаток</p>
               </div>
             </li>
-            <li class="poster-page">
+            <li data-aos="fade-right" data-aos-duration="1500" class="poster-page">
               <img src="./img/portfolio/portfolio4.webp" alt="Карточка 4" />
               <div class="poster-text">
                 <div class="overlay">
@@ -126,7 +127,7 @@
                 <p class="descr">Маркетинг</p>
               </div>
             </li>
-            <li class="poster-page">
+            <li data-aos="zoom-in" data-aos-duration="1500" class="poster-page">
               <img src="./img/portfolio/portfolio5.webp" alt="Карточка 5" />
               <div class="poster-text">
                 <div class="overlay">
@@ -140,7 +141,7 @@
                 <p class="descr">Додаток</p>
               </div>
             </li>
-            <li class="poster-page">
+            <li data-aos="fade-left" data-aos-duration="1500" class="poster-page">
               <img src="./img/portfolio/portfolio6.webp" alt="Карточка 6" />
               <div class="poster-text">
                 <div class="overlay">
@@ -154,7 +155,7 @@
                 <p class="descr">Веб-сайт</p>
               </div>
             </li>
-            <li class="poster-page">
+            <li data-aos="fade-right" data-aos-duration="1500" class="poster-page">
               <img src="./img/portfolio/portfolio7.webp" alt="Карточка 7" />
               <div class="poster-text">
                 <div class="overlay">
@@ -168,7 +169,7 @@
                 <p class="descr">Дизайн</p>
               </div>
             </li>
-            <li class="poster-page">
+            <li data-aos="fade-up" data-aos-duration="1500" class="poster-page">
               <img src="./img/portfolio/portfolio8.webp" alt="Карточка 8" />
               <div class="poster-text">
                 <div class="overlay">
@@ -182,7 +183,7 @@
                 <p class="descr">Маркетинг</p>
               </div>
             </li>
-            <li class="poster-page">
+            <li data-aos="fade-left" data-aos-duration="1500" class="poster-page">
               <img src="./img/portfolio/portfolio9.webp" alt="Карточка 9" />
               <div class="poster-text">
                 <div class="overlay">
@@ -279,5 +280,12 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+  AOS.init();
+</script>
+
   </body>
 </html>
