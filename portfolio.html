@@ -15,7 +15,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/portfolio.css" />
     <title>Портфоліо</title>
@@ -42,12 +42,14 @@
           <ul class="contacts-list">
             <li class="contacts-page">
               <svg class="nav-icon-smartphone">
-                <use href="./img/icons.svg#icon-smartphone"></use></svg>
+                <use href="./img/icons.svg#icon-smartphone"></use>
+              </svg>
               <a href="tel:+380961111111" class="nav-tel">+38 096 111 11 11</a>
             </li>
             <li class="contacts-page">
               <svg class="nav-icon-envelope">
-                <use href="./img/icons.svg#icon-envelope"></use></svg>
+                <use href="./img/icons.svg#icon-envelope"></use>
+              </svg>
               <a href="mailto:info@devstudio.com" class="nav-mail"
                 >info@devstudio.com</a
               >
@@ -71,9 +73,13 @@
       <section class="work-poster">
         <div class="container container-poster">
           <ul class="poster-list">
-            <li data-aos="fade-right" data-aos-duration="1500" class="poster-page">
-              <img src="./img/portfolio/portfolio1.webp" alt="Карточка 1" />
-              <div class="poster-text">
+            <li
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              class="poster-page"
+            >
+              <div class="fade-box">
+                <img src="./img/portfolio/portfolio1.webp" alt="Карточка 1" />
                 <div class="overlay">
                   <p class="overlay-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -81,11 +87,18 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
+              </div>
+              <div class="poster-text">
                 <h2 class="title">Технокряк</h2>
                 <p class="descr">Веб-сайт</p>
               </div>
             </li>
-            <li data-aos="fade-down" data-aos-duration="1500" class="poster-page">
+            <li
+              data-aos="fade-down"
+              data-aos-duration="1500"
+              class="poster-page"
+            >
+            <div class="fade-box">
               <img src="./img/portfolio/portfolio2.webp" alt=Карточка 2" />
               <div class="poster-text">
                 <div class="overlay">
@@ -95,11 +108,16 @@
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
+                </div> 
                 <h2 class="title">Постер New Orlean vs Golden Star</h2>
                 <p class="descr">Дизайн</p>
               </div>
             </li>
-            <li data-aos="fade-left" data-aos-duration="1500" class="poster-page">
+            <li
+              data-aos="fade-left"
+              data-aos-duration="1500"
+              class="poster-page"
+            >
               <img src="./img/portfolio/portfolio3.webp" alt="Карточка 3" />
               <div class="poster-text">
                 <div class="overlay">
@@ -113,7 +131,11 @@
                 <p class="descr">Додаток</p>
               </div>
             </li>
-            <li data-aos="fade-right" data-aos-duration="1500" class="poster-page">
+            <li
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              class="poster-page"
+            >
               <img src="./img/portfolio/portfolio4.webp" alt="Карточка 4" />
               <div class="poster-text">
                 <div class="overlay">
@@ -141,7 +163,11 @@
                 <p class="descr">Додаток</p>
               </div>
             </li>
-            <li data-aos="fade-left" data-aos-duration="1500" class="poster-page">
+            <li
+              data-aos="fade-left"
+              data-aos-duration="1500"
+              class="poster-page"
+            >
               <img src="./img/portfolio/portfolio6.webp" alt="Карточка 6" />
               <div class="poster-text">
                 <div class="overlay">
@@ -155,7 +181,11 @@
                 <p class="descr">Веб-сайт</p>
               </div>
             </li>
-            <li data-aos="fade-right" data-aos-duration="1500" class="poster-page">
+            <li
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              class="poster-page"
+            >
               <img src="./img/portfolio/portfolio7.webp" alt="Карточка 7" />
               <div class="poster-text">
                 <div class="overlay">
@@ -183,7 +213,11 @@
                 <p class="descr">Маркетинг</p>
               </div>
             </li>
-            <li data-aos="fade-left" data-aos-duration="1500" class="poster-page">
+            <li
+              data-aos="fade-left"
+              data-aos-duration="1500"
+              class="poster-page"
+            >
               <img src="./img/portfolio/portfolio9.webp" alt="Карточка 9" />
               <div class="poster-text">
                 <div class="overlay">
@@ -284,8 +318,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
-  AOS.init();
-</script>
-
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -284,7 +284,6 @@ margin-right: 10px;
 }
 
 .poster-page{
-  position: relative;
 border: 1px solid #EEE;
 background: #FFF;
 overflow: hidden;
@@ -306,7 +305,12 @@ box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0
   transition: transform 250ms ease-in-out
 }
 
-.poster-page:hover .overlay{
+.fade-box{
+overflow: hidden;
+position: relative;
+}
+
+.fade-box:hover .overlay{
 transform: translatey(0);
 }
 
